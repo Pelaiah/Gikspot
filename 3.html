@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GikSpot - Your Tech Solution Partner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <a href="#" class="logo">GikSpot</a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#" id="shoppingCartIcon" class="icon" aria-label="Shopping Cart">
+                &#x1F6D2;
+                <span class="cart-badge" id="cartBadge">0</span>
+            </a>
+            <div id="cartDropdown">
+                <div class="cart-items-list" id="cartItemsList">
+                    <div class="cart-item empty-cart-message">Your cart is empty.</div>
+                </div>
+                <div class="cart-summary">
+                    <span>Total:</span>
+                    <span id="cartTotal">$0.00</span>
+                </div>
+                <button class="checkout-button">Checkout</button>
+            </div>
+            <a href="#" class="icon" aria-label="Profile">&#x1F464;</a>
+            <a href="#contact" class="get-in-touch-button">Get in touch</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h3>We're GikSpot</h3>
+            <h1>We make<br>Tech Logical</h1>
+            <button id="subscribeNowButton" class="subscribe-now-button">Subscribe Now</button>
+            <div class="logo-row">
+                <span class="logo-placeholder">TechCo</span>
+                <span class="logo-placeholder">GadgetHub</span>
+                <span class="logo-placeholder">InnovateX</span>
+                <span class="logo-placeholder">CyberPro</span>
+                <span class="logo-placeholder">DigitalCrafters</span>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About GikSpot</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>GikSpot is a leading tech solutions provider dedicated to bringing innovative and reliable services to individuals and businesses. With a passion for technology and a commitment to excellence, we offer a comprehensive suite of services designed to meet all your digital needs.</p>
+                    <p>From breathing new life into your beloved gadgets to crafting stunning online presences and executing complex tech projects, our expert team is here to empower your digital journey.</p>
+                </div>
+                <div class="about-image">
+                    [About Image Placeholder]
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Services</h2>
+            <p>At GikSpot, we provide a wide range of expert services to keep you connected and ahead in the digital world.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h4>Gadget Repairs</h4>
+                    <p>Revitalize your devices! We offer expert repair services for smartphones, laptops, tablets, gaming consoles, and more. Fast, reliable, and affordable solutions for cracked screens, battery issues, software glitches, and hardware failures.</p>
+                </div>
+                <div class="service-card">
+                    <h4>Gadget Sales</h4>
+                    <p>Find your next tech essential. Explore our curated selection of new and pre-owned smartphones, laptops, accessories, and smart home devices. Quality products at competitive prices, backed by our guarantee.</p>
+                </div>
+                <div class="service-card">
+                    <h4>Digital Marketing</h4>
+                    <p>Amplify your online presence. Our digital marketing strategies include SEO, social media management, content creation, email campaigns, and paid advertising to boost your brand's visibility and engagement.</p>
+                </div>
+                <div class="service-card">
+                    <h4>Web Development</h4>
+                    <p>Craft your digital identity. We specialize in creating responsive, user-friendly, and high-performing websites, e-commerce platforms, and custom web applications tailored to your business needs.</p>
+                </div>
+                <div class="service-card">
+                    <h4>Tech Projects & Expos</h4>
+                    <p>Bring your innovative ideas to life. From conceptualization to execution, we manage complex tech projects, offer expert consulting, and participate in/host tech expos to showcase the latest innovations.</p>
+                </div>
+                <div class="service-card">
+                    <h4>IT Consultancy</h4>
+                    <p>Strategic guidance for your tech future. Our consultants help optimize your IT infrastructure, implement robust security measures, and advise on technology adoption to drive efficiency and growth.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <h2>Featured Products</h2>
+            <p>Discover some of the cutting-edge gadgets and accessories available through GikSpot.</p>
+            <div class="product-scroll-container">
+                <div class="product-cards-wrapper">
+                    <div class="product-card">
+                        <div class="edge-ripple"></div>
+                        <div class="product-image">Gadget Image</div>
+                        <div class="product-info">
+                            <h4>Smartwatch Pro</h4>
+                            <p>Stay connected and track your fitness with our latest smartwatch.</p>
+                            <div class="price">$199.99</div>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                        <button class="add-to-cart-btn" data-product-id="smartwatch-pro" data-product-name="Smartwatch Pro" data-product-price="199.99">+</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="edge-ripple"></div>
+                        <div class="product-image">Laptop Image</div>
+                        <div class="product-info">
+                            <h4>UltraBook X</h4>
+                            <p>Powerful and sleek laptop for ultimate productivity on the go.</p>
+                            <div class="price">$1299.00</div>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                        <button class="add-to-cart-btn" data-product-id="ultrabook-x" data-product-name="UltraBook X" data-product-price="1299.00">+</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="edge-ripple"></div>
+                        <div class="product-image">Headphones Image</div>
+                        <div class="product-info">
+                            <h4>Noise-Cancelling Headphones</h4>
+                            <p>Immersive audio experience with superior comfort and sound.</p>
+                            <div class="price">$99.50</div>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                        <button class="add-to-cart-btn" data-product-id="headphones" data-product-name="Noise-Cancelling Headphones" data-product-price="99.50">+</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="edge-ripple"></div>
+                        <div class="product-image">Drone Image</div>
+                        <div class="product-info">
+                            <h4>Explorer Drone 3000</h4>
+                            <p>Capture stunning aerial footage with this easy-to-fly drone.</p>
+                            <div class="price">$450.00</div>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                        <button class="add-to-cart-btn" data-product-id="drone-3000" data-product-name="Explorer Drone 3000" data-product-price="450.00">+</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="edge-ripple"></div>
+                        <div class="product-image">Gadget Image</div>
+                        <div class="product-info">
+                            <h4>Smartwatch Pro V2</h4>
+                            <p>Stay connected and track your fitness with our latest smartwatch.</p>
+                            <div class="price">$249.99</div>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                        <button class="add-to-cart-btn" data-product-id="smartwatch-pro-2" data-product-name="Smartwatch Pro V2" data-product-price="249.99">+</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="edge-ripple"></div>
+                        <div class="product-image">Laptop Image</div>
+                        <div class="product-info">
+                            <h4>Chromebook Lite</h4>
+                            <p>Lightweight and powerful for everyday tasks and web Browse.</p>
+                            <div class="price">$399.00</div>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                        <button class="add-to-cart-btn" data-product-id="chromebook-lite" data-product-name="Chromebook Lite" data-product-price="399.00">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Shop by Brand</h3>
+            <div class="shop-by-brand-grid">
+                <div class="brand-logo-card">Brand A</div>
+                <div class="brand-logo-card">Brand B</div>
+                <div class="brand-logo-card">Brand C</div>
+                <div class="brand-logo-card">Brand D</div>
+                <div class="brand-logo-card">Brand E</div>
+                <div class="brand-logo-card">Brand F</div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Our Projects</h2>
+            <p>Explore some of our recent successful projects and initiatives.</p>
+            <div class="projects-list">
+                <div class="project-item">
+                    <h4>E-commerce Platform for "ShopGlobal"</h4>
+                    <p>Developed a robust and scalable e-commerce platform, integrating secure payment gateways and intuitive user experience for a global retail client.</p>
+                    <a href="#" class="project-link">View Case Study</a>
+                </div>
+                <div class="project-item">
+                    <h4>Smart Home Automation System</h4>
+                    <p>Designed and implemented an AI-powered smart home automation system, enhancing energy efficiency and security for residential clients.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+                <div class="project-item">
+                    <h4>Interactive Education Portal</h4>
+                    <p>Created an engaging online education portal with interactive learning modules and real-time collaboration features for a non-profit organization.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2>What Our Clients Say</h2>
+            <p>Hear from our satisfied customers about their experience with GikSpot.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"GikSpot fixed my laptop in record time! Their service was professional, affordable, and incredibly efficient. Highly recommend their gadget repair services."</p>
+                    <span class="testimonial-author">- Jane Doe, Small Business Owner</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The team at GikSpot helped us launch our new website, and the results have been phenomenal. They truly understand digital marketing and web development."</p>
+                    <span class="testimonial-author">- John Smith, Tech Startup Founder</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I purchased a new smartphone from GikSpot, and I couldn't be happier. The quality is top-notch, and their customer service made the entire process seamless."</p>
+                    <span class="testimonial-author">- Emily White, Private Client</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Have questions or ready to start your next tech project? Contact us today!</p>
+                    <p><strong>Email:</strong> info@gikspot.com</p>
+                    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Address:</strong> 123 Tech Lane, Innovation City, CA 90210</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook">&#xF09A;</a>
+                        <a href="#" aria-label="Twitter">&#xF099;</a>
+                        <a href="#" aria-label="LinkedIn">&#xF0E1;</a>
+                        <a href="#" aria-label="Instagram">&#xF16D;</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form action="#" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 GikSpot. All rights reserved.</p>
+    </footer>
+
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Sign Up for Exclusive Offers</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Complete Your Purchase</h2>
+            <div class="payment-methods">
+                <button class="payment-method-button selected" data-payment-method="card">
+                    <img src="https://example.com/card-icon.png" alt="Card Icon"> Card Payment
+                </button>
+                <button class="payment-method-button" data-payment-method="paypal">
+                    <img src="https://example.com/paypal-icon.png" alt="PayPal Icon"> PayPal
+                </button>
+                <button class="payment-method-button" data-payment-method="ecocash">
+                    <img src="https://example.com/ecocash-icon.png" alt="EcoCash Icon"> EcoCash
+                </button>
+                <button class="payment-method-button" data-payment-method="zipit">
+                    <img src="https://example.com/zipit-icon.png" alt="Zipit Icon"> Zipit
+                </button>
+            </div>
+
+            <div id="cardPaymentForm" class="payment-form-section active">
+                <h3>Card Details</h3>
+                <label for="cardNumber">Card Number:</label>
+                <div class="card-number-group">
+                    <input type="text" id="cardNumber1" maxlength="4" placeholder="XXXX" required>
+                    <input type="text" id="cardNumber2" maxlength="4" placeholder="XXXX" required>
+                    <input type="text" id="cardNumber3" maxlength="4" placeholder="XXXX" required>
+                    <input type="text" id="cardNumber4" maxlength="4" placeholder="XXXX" required>
+                    <span class="eye-icon">&#x1F441;</span> </div>
+                <div class="card-inputs">
+                    <div class="card-input-group">
+                        <label for="expiryDate">Expiry Date:</label>
+                        <input type="text" id="expiryDate" placeholder="MM/YY" required>
+                    </div>
+                    <div class="card-input-group">
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" placeholder="CVV" required>
+                    </div>
+                </div>
+                <label for="cardName">Cardholder Name:</label>
+                <input type="text" id="cardName" placeholder="Name on Card" required>
+                <div class="card-image-placeholder">Card Type</div>
+            </div>
+
+            <div id="paypalPaymentForm" class="payment-form-section">
+                <h3>PayPal Details</h3>
+                <p>You will be redirected to PayPal to complete your purchase securely.</p>
+                <button class="btn paypal-login-btn">Login to PayPal</button>
+            </div>
+
+            <div id="ecocashPaymentForm" class="payment-form-section">
+                <h3>EcoCash Details</h3>
+                <label for="ecocashNumber">EcoCash Number:</label>
+                <input type="text" id="ecocashNumber" placeholder="+263 7X XXX XXXX" required>
+                <label for="ecocashRef">EcoCash Reference:</label>
+                <input type="text" id="ecocashRef" placeholder="Transaction Reference" required>
+            </div>
+
+            <div id="zipitPaymentForm" class="payment-form-section">
+                <h3>Zipit Details</h3>
+                <label for="zipitBank">Select Bank:</label>
+                <select id="zipitBank" required>
+                    <option value="">-- Select Bank --</option>
+                    <option value="bankA">Bank A</option>
+                    <option value="bankB">Bank B</option>
+                    <option value="bankC">Bank C</option>
+                </select>
+                <label for="zipitRef">Zipit Reference:</label>
+                <input type="text" id="zipitRef" placeholder="Transaction Reference" required>
+            </div>
+
+            <div class="delivery-section">
+                <h3>Delivery Information</h3>
+                <label for="deliveryMethod">Delivery Method:</label>
+                <select id="deliveryMethod">
+                    <option value="standard">Standard Delivery (3-5 business days)</option>
+                    <option value="express">Express Delivery (1-2 business days)</option>
+                </select>
+                <label for="deliveryAddress">Delivery Address:</label>
+                <input type="text" id="deliveryAddress" placeholder="Street Address" required>
+                <input type="text" id="deliveryCity" placeholder="City" required>
+                <input type="text" id="deliveryZip" placeholder="Zip Code" required>
+                <p class="location-prompt">Use current location</p>
+                <div class="google-map-placeholder">[Google Map Placeholder]</div>
+            </div>
+
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <div><span>Subtotal:</span> <span id="summarySubtotal">$0.00</span></div>
+                <div><span>Delivery Fee:</span> <span id="summaryDeliveryFee">$0.00</span></div>
+                <div class="total-line"><span>Total Payable:</span> <span id="summaryTotalPayable">$0.00</span></div>
+            </div>
+
+            <button class="pay-button" id="initiatePaymentButton">Initiate Payment</button>
+        </div>
+    </div>
+
+    <div id="receiptModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Payment Successful!</h2>
+            <p>Your order has been placed. Thank you for your purchase.</p>
+            <div class="receipt-identifier">
+                <span>Transaction ID:</span>
+                <input type="text" id="uniqueIdentifier" value="GS-XXXXXXXX" readonly>
+                <button class="copy-button">Copy</button>
+            </div>
+            <div class="copy-feedback" id="copyFeedback"></div>
+            <p class="security-note">Please keep your Transaction ID for future reference.</p>
+        </div>
+    </div>
+    <script src="script.js"></script> </body>
+</html>
